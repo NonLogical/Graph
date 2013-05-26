@@ -1,0 +1,7 @@
+DeltaTime = TimeFinal - TimeInitial
+DeltaDistance = DistanceFinal - DistanceInitial
+Force = Mass * Acceleration
+VelocityFinal^2 = VelocityInitial^2 + 2*Acceleration * DeltaDistance
+DistanceFinal = DistanceInitial + VelocityInitial*Time + .5 * Acceleration * Time^2
+VelocityFinal = VelocityInitial + Acceleration*DeltaTime
+Work = Force*Distance
